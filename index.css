@@ -123,9 +123,6 @@ header div ul li a:hover {
 }
 
 
-
-
-
 /* start Articel*/
 
 article.artcle-home table{
@@ -211,24 +208,69 @@ font-family: OumaiAmloulogo;
 
 
 /* stat nav */
-/* nav{ */
+nav{
 
 	/* display: flex; */
-	/* align-items: center; */
-  /* } */
+	align-items: center;
+  }
+.mainQoute table{
+	text-align:center;
+	width: 80%;
+  margin: auto;
+  padding: 29px;
+}
+td .Qoutespan{
+	font-family: OumaiAmloulogo;
+  font-size: 56px;
+  font-weight: 900;background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
+}
+td .empyyyyy{
+	color:white;
+}
+.MyQuotes{
+	font-size: 20px;
+  font-weight: 500;
+  font-family: body;padding:10px;
   
-
-
+}
+/* .mainQoute td{ width:700px;} */
+.Qtsdiv
+{   
+	display: flex; 
+    justify-content: center; 
+    align-items: center;
+	width:600px;margin:auto;height:200px;
+}
+.flesh
+{
+	width:300px;
+    align-items: left;
+}
+.fa.fa-angle-left ,.fa.fa-angle-right{
+	font-size: 60px;
+  font-weight: 900;text-shadow: 1px 1px 0px rgb(15, 14, 14);
+}
+button{
+	background-color:white;border:none;
+}
 /* end nav */
 
 /* start footer */
-/* footer{ */
-	/* font-family: body; */
-/* } */
-/* .DesignedFooter */
-/* { */
-	/* text-align:center; */
-/* } */
+
+footer {
+   font-family: body;
+    background-color: #fdecf3;
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+box-shadow: 7px 9px 14px rgba(0, 0, 0, 0.46);
+
+}
+
+.DesignedFooter {
+    text-align: center; 
+}
 /* end footer */
 
 
