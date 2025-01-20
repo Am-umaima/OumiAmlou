@@ -120,6 +120,10 @@ header div ul li a:hover {
 	.iamoumaima {
         font-size: 35px !important;
     }
+	.Qtsdiv
+	{   
+	 width:450px !important;height:300px !important;
+	}section div{	width:100%;}
 }
 
 
@@ -260,7 +264,7 @@ button{
 footer {
    font-family: body;
     background-color: #fdecf3;
-    height: 50px;
+    height: 80px;
     display: flex; 
     justify-content: center; 
     align-items: center;
