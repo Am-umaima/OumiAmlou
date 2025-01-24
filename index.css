@@ -8,11 +8,11 @@
 }
 *
 {
-	
 	font-weight: lighter;
 	letter-spacing: 2px;
-	margin: 0px;
-	margin-top:4px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body{background-color:white;}
 
