@@ -14,6 +14,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+	margin-top:4px;
+}
 body{background-color:white;}
 
 /**L headerr a wtchma inoo**/
@@ -120,6 +122,7 @@ header div ul li a:hover {
 	.iamoumaima ,td .Qoutespan{
         font-size: 35px !important;
     }
+	
 	.Qtsdiv
 	{   
 	 width:450px !important;height:300px !important;
@@ -180,6 +183,7 @@ article.artcle-home table p{
   margin-top: 60px; /* Pushes the wave below the fixed header height */
 }
 /* end Articel*/
+
 /*  start section*/
 section {background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;}
 section div{
@@ -205,78 +209,124 @@ font-family: OumaiAmloulogo;
   font-size: xx-large;
   color: #ba336b;
   font-weight: 200;
-  /* text-shadow: 1px 1px 0px rgb(15, 14, 14); */
   text-decoration-style: wavy;line-height: 70px;
   }
 /*  end section*/
 
 
 /* stat nav */
-nav{
-
-	/* display: flex; */
-	align-items: center;
-  }
-.mainQoute table{
+nav table{
 	text-align:center;
-	width: 80%;
   margin: auto;
-  padding: 29px;
+ border-spacing: 30px;
 }
-td .Qoutespan{
+nav table tr td {
+	padding: 15px ;
+	font-family: body;
+}
+nav table tr td img{
+	vertical-align: middle;padding-right:15px;
+}
+.toolsy{
+	border:1px solid grey;
+	width:250px;text-align:left;border-radius:5px;
+}
+.toolsy:hover{
+	background-color: whitesmoke;
+	border-radius: 0px;
+}
+ .toolsy:hover img {
+        transform: scale(1.10); /* Makes the image 10% larger  */
+    }
+td .Technologiesstool{
 	font-family: OumaiAmloulogo;
-  font-size: 56px;
+  font-size: 56px;text-align:center;
   font-weight: 900;background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
-}
-td .empyyyyy{
-	color:white;
-}
-.MyQuotes{
-	font-size: 20px;
-  font-weight: 500;
-  font-family: body;padding:10px;
-  
-}
-/* .mainQoute td{ width:700px;} */
-.Qtsdiv
-{   
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-	width:600px;margin:auto;height:200px;
-}
-.flesh
-{
-	width:300px;
-    align-items: left;
-}
-.fa.fa-angle-left ,.fa.fa-angle-right{
-	font-size: 60px;
-  font-weight: 900;text-shadow: 1px 1px 0px rgb(15, 14, 14);
-}
-button{
-	background-color:white;border:none;
 }
 /* end nav */
 
-/* start footer */
+/* start main projects  */
+main table{
+	font-family: body;
+	border-spacing: 25px;
+}
+td .LatestProjects{
+	font-family: OumaiAmloulogo;
+	font-size: 56px;
+	font-weight: 900;
+	background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
+	 display: block; /* Ensures it takes full width */
+    text-align: center; /* Centers the text */
+}
+.Mainproj table td{
+	border:1px solid grey;
+}
 
+.Tdtextside{
+	text-align:center;
+	width:40%;
+	padding:10px;
+	font-size:12px;
+}
+.page-descri{
+	height:150px;
+  align-content: center;
+}
+.Tdpicside{
+	width:60%;	
+	filter: grayscale(0.7);
+}
+.Tdpicside:hover{
+	filter: none;
+}
+
+.techno-used{
+	background-color:beige;font-size:10px;align-content: center;height:40px;
+	border-top :1px solid grey;
+	border-bottom :1px solid grey;
+}
+
+
+.Tdtextside ul {
+    list-style-type: none;
+	align-items: end;
+    display: flex;
+    justify-content: space-between;
+	height: 60px;
+}
+.titlepagee{
+	font-size: 25px;
+
+}
+
+/* end main projjects */
+ /* Start footer styling */
 footer {
-   font-family: body;
+    font-family: Arial, sans-serif;
     background-color: #fdecf3;
-    height: 80px;
-    display: flex; 
-    justify-content: center; 
+    height: 100px; 
+    display: flex;
+    flex-direction: column; /
+    justify-content: center;
     align-items: center;
-box-shadow: 7px 9px 14px rgba(0, 0, 0, 0.46);
-
+    box-shadow: 7px 9px 14px rgba(0, 0, 0, 0.46);
+    padding: 10px; 
 }
-
-.DesignedFooter {
-    text-align: center; 
+.DesignedFooter {text-align: center;}
+.DesignedFooter table {margin: 0 auto;}
+.DesignedFooter td a {
+    color: black;
+    padding-left: 14px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
 }
-/* end footer */
-
+.DesignedFooter td a:hover {color: #555;}
+.DesignedFooter p {
+    margin-top: 10px; 
+    font-size: 16px;
+}
+/* End footer styling */
 
 
 
