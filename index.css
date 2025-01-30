@@ -65,7 +65,7 @@ header {
   height: 60px; 
   background-color: white;
   z-index: 1000; margin-top: 0px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Optional for better visibility */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
 }
 
 /* Menu Styling */
@@ -234,7 +234,7 @@ nav table tr td img{
 	border-radius: 0px;
 }
  .toolsy:hover img {
-        transform: scale(1.10); /* Makes the image 10% larger  */
+        transform: scale(1.10); 
     }
 td .Technologiesstool{
 	font-family: OumaiAmloulogo;
@@ -253,32 +253,55 @@ td .LatestProjects{
 	font-size: 56px;
 	font-weight: 900;
 	background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
-	 display: block; /* Ensures it takes full width */
-    text-align: center; /* Centers the text */
+	 display: block; 
+    text-align: center; 
 }
 .Mainproj table td{
 	border:1px solid grey;
 }
-
-.Tdtextside{
-	text-align:center;
-	width:40%;
-	padding:10px;
-	font-size:12px;
+.Mainproj {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mainproj table {
+    width: 100%;
+    table-layout: fixed; 
+}
+/* .Tdpicside img {
+    max-width: 100%;
+    height: auto;
+} */
+/* .Tdpicside{
+	text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.Tdtextside {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
 }
 .page-descri{
 	height:150px;
 	text-align:justify;
 	align-content: center;padding:10px;
-}
+} 
 .Tdpicside{
 	width:60%;	
 	filter: grayscale(0.7);
-}
+} 
 .Tdpicside:hover{
 	filter: none;
 }
-
 .techno-used{
 	background-color:#fdecf3 ;
 	font-size:10px;align-content: center;height:40px;
@@ -293,14 +316,14 @@ td .LatestProjects{
     justify-content: space-between;
 	height: 60px;
 	font-family: Arial, sans-serif;
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:25px;
+	padding-right:25px;
+	padding:10px;
 }
 .Tdtextside ul li a :hover{
 	transform: scale(1.25);
 }
 .titlepagee{
-	color:grey;
 	font-size: 25px;
 	border-bottom :1px solid grey;
 	padding-bottom:10px;
