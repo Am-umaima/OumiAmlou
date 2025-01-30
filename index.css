@@ -14,8 +14,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-	margin-top:4px;
-}
+
 body{background-color:white;}
 
 /**L headerr a wtchma inoo**/
@@ -139,7 +138,6 @@ article.artcle-home table{
 article.artcle-home table p{
 	font-weight:400;text-align: justify;
 }
-.imgpc{}
 .introud{
 	font-size:20px;
 	font-family: body;
@@ -335,7 +333,7 @@ footer {
     background-color: #fdecf3;
     height: 100px; 
     display: flex;
-    flex-direction: column; /
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     box-shadow: 7px 9px 14px rgba(0, 0, 0, 0.46);
