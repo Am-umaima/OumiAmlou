@@ -219,6 +219,10 @@ font-family: OumaiAmloulogo;
 	text-align: end;
 	font-family: letssay;
 	font-size: 20px;
+	/* transition: all 0.3s ease-in-out; */
+}
+.Moreskills:hover{
+	transform: scale(1.10);
 }
 .Moreskills a{
 	text-decoration: none;
@@ -357,40 +361,75 @@ td .LatestProjects{
 	font-size: 20px;
 	width: 95%;
 }
+.Moreproject:hover{
+	transform: scale(1.10);
+}
+
 /* end main projects */
 
 
-/* start aside contact */
-aside{
-	 font-family: body;
-	 width:80%;margin:auto;
-	 text-align:center;
-	 padding: 50px;
-	 padding-bottom: 80px;
+/* Start Aside Contact */
+aside {
+	font-family: body;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 80px;
 }
-.getintouch{
-	font-family: OumaiAmloulogo;padding: 10px;
-	font-size: 56px;
-	font-weight: 900;
-	background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
-	display: block; 
-    text-align: center; width: 50%;
-	margin: auto; 
+
+.getintouch {
+    font-family: 'OumaiAmloulogo', sans-serif;
+    padding: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to top, #fdecf3 50%, white 1%);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
+
+aside ul {
+    padding: 0;
+}
+
 aside ul li {
-	 background-color:whitesmoke;
-	 list-style: none;
-	 padding: 15px;
- 	 width: 40%;
- 	 margin: auto;
-	 border-radius: 10px;
-  	margin-top: 30px;
-	  text-align: left;
+    list-style: none;
+    padding: 15px;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
 }
-aside p{
-	margin-top: 30px;
+aside ul li i
+{
+	font-size: 50px;
+	border-radius: 20px;
+	background-color:#ba336b;
+	color: white;
+	padding: 10px;
+	margin-right: 10px;
 }
-/* end aside contact  */
+
+aside ul li:hover {
+    background-color: whitesmoke;;
+    transform: scale(1.05);
+}
+
+aside ul li a {
+    color: #040506;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+aside p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* End Aside Contact */
 
  /* Start footer styling */
 footer {
