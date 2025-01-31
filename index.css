@@ -13,6 +13,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: body; 
+}
+@font-face{
+    font-family: header;
+    src: url("Fonts/Bohabey Font by 7Ntypes.otf");
 }
 
 body{background-color:white;}
@@ -23,13 +28,13 @@ header{
     position: sticky;
     top: 0;
 	background-color:white;
-	font-size:16px;
+	font-size:18px;
 	width:100%;	
 	padding: 5px 0px 05px 0px;;
 	display: inline-flex;
 	justify-content: space-around;/*rwast vertical*/
-	align-items: baseline;/*spadit gi rwas hero*/  
-	font-family: body;
+	align-items: baseline;/*spadit gi rwas hero*/ 
+    font-family: header;
 }
 .OumaiAmlou a{
 	cursor:grab;
@@ -42,6 +47,7 @@ header{
 
 .imaa{
 	color:black;
+    font-family: OumaiAmloulogo;
 }
 
 .Other-content {
@@ -140,7 +146,6 @@ article.artcle-home table p{
 }
 .introud{
 	font-size:30px;
-	font-family: body;
 }
 .Hello{font-family: OumaiAmloulogo;font-size:35px;}
 .Morocco
@@ -161,20 +166,22 @@ article.artcle-home table p{
 	padding:4px;
 }
 .number{
-	font-family: OumaiAmloulogo;font-weight:900;font-size:30px;
+	font-family: header;
+    font-weight:900;font-size:25px;
 }
 .btnss a{
-  padding: 9px 10px;
-  text-decoration: none;
-  border-radius: 4px;
-  border: 1px solid #bb3268;
-  text-align: center;
-  background-color: #bb3268;
-  color: white;
-  width: 150px; 
-   display: inline-block;
-   font-family: body;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #bb3268;
+    /* text-align: center; */
+    background-color: #bb3268;
+    color: white;
+    width: 160px; 
+    display: inline-block;
+    margin-left: 10px;
 }
+
 #wave {
   position: relative; /* Allows control over stacking */
   z-index: 1; /* Places it below the header */
@@ -187,9 +194,8 @@ section {background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;}
 section div{
 	padding: 20px;
 	margin:auto;
-	width:85%;
+	width:82%;
 	font-size:18px;
-	font-family: body;
 }
 .moreaboutTitle
 {
@@ -200,8 +206,9 @@ section div{
 }
 .Moreaboutme{
 	padding-left:30px;text-align: justify;
-	font-size: 25px;
+	font-size: 22px;
 	padding-bottom: 30px;
+    line-height: 44px;
 }
 .checkskills
 { 
@@ -211,13 +218,8 @@ font-family: OumaiAmloulogo;
   font-weight: 200;
   text-decoration-style: wavy;line-height: 70px;
 }
-@font-face{
-    font-family: letssay;
-    src: url("Fonts/Love Story Rough.ttf");
-}
 .Moreskills {
 	text-align: end;
-	font-family: letssay;
 	font-size: 20px;
 	/* transition: all 0.3s ease-in-out; */
 }
@@ -234,12 +236,11 @@ font-family: OumaiAmloulogo;
 /* stat nav */
 nav table{
 	text-align:center;
-  margin: auto;
- border-spacing: 30px;
+    margin: auto;
+    border-spacing: 30px;
 }
 nav table tr td {
 	padding: 15px ;
-	font-family: body;
 }
 nav table tr td img{
 	vertical-align: middle;padding-right:15px;
@@ -269,7 +270,6 @@ main{
 	padding-top: 40px;
 }
 main table{
-	font-family: body;
 	border-spacing: 25px;
 }
 td .LatestProjects{
@@ -366,12 +366,11 @@ td .LatestProjects{
 	transform: scale(1.10);
 }
 
-/* end main projects */
+/* end main projects */ 
 
 
 /* Start Aside Contact */
 aside {
-	font-family: body;
     width: 80%;
     margin: auto;
     text-align: center;
