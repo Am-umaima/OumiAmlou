@@ -323,7 +323,7 @@ td .LatestProjects{
 .page-descri{
 	height:150px;
 	text-align:left;
-	font-size: 15px;
+	font-size: 16px;
 	align-content: center;padding:16px;
 } 
 .techno-used{
@@ -331,6 +331,7 @@ td .LatestProjects{
 	font-size:10px;align-content: center;height:40px;
 	border-top :1px solid grey;
 	border-bottom :1px solid grey;
+    font-size: 16px;
 }
 
 .Tdtextside ul {
@@ -348,9 +349,11 @@ td .LatestProjects{
 	transform: scale(1.25);
 }
 .titlepagee{
+    color: #ba336b;
 	font-size: 25px;
 	border-bottom :1px solid grey;
-	padding-bottom:10px;
+	padding:20px; 
+    -webkit-text-stroke: 1px black;
 }
 .Moreproject a{
 	color: black;
@@ -376,6 +379,7 @@ aside {
     text-align: center;
     padding: 50px;
     padding-bottom: 80px;
+    font-size: 17px;
 }
 
 .getintouch {
@@ -398,7 +402,7 @@ aside ul li {
     padding: 15px;
     width: 40%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 12px;
     text-align: left;
     transition: all 0.3s ease-in-out;
 }
