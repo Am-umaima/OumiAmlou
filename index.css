@@ -139,7 +139,7 @@ article.artcle-home table p{
 	font-weight:400;text-align: justify;
 }
 .introud{
-	font-size:20px;
+	font-size:30px;
 	font-family: body;
 }
 .Hello{font-family: OumaiAmloulogo;font-size:35px;}
@@ -161,7 +161,7 @@ article.artcle-home table p{
 	padding:4px;
 }
 .number{
-	font-family: OumaiAmloulogo;font-weight:900;font-size:20px;
+	font-family: OumaiAmloulogo;font-weight:900;font-size:30px;
 }
 .btnss a{
   padding: 9px 10px;
@@ -187,7 +187,7 @@ section {background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;}
 section div{
 	padding: 20px;
 	margin:auto;
-	width:92%;
+	width:85%;
 	font-size:18px;
 	font-family: body;
 }
@@ -200,6 +200,8 @@ section div{
 }
 .Moreaboutme{
 	padding-left:30px;text-align: justify;
+	font-size: 25px;
+	padding-bottom: 30px;
 }
 .checkskills
 { 
@@ -208,7 +210,20 @@ font-family: OumaiAmloulogo;
   color: #ba336b;
   font-weight: 200;
   text-decoration-style: wavy;line-height: 70px;
-  }
+}
+@font-face{
+    font-family: letssay;
+    src: url("Fonts/Love Story Rough.ttf");
+}
+.Moreskills {
+	text-align: end;
+	font-family: letssay;
+	font-size: 20px;
+}
+.Moreskills a{
+	text-decoration: none;
+	color:black;
+}
 /*  end section*/
 
 
@@ -238,11 +253,17 @@ nav table tr td img{
     }
 td .Technologiesstool{
 	font-family: OumaiAmloulogo;
-  font-size: 56px;text-align:center;
+  font-size: 56px; display: block; 
+  text-align: center; width: 80%;
+  margin: auto;
   font-weight: 900;background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
 }
 /* end nav */
 /* start main projects  */
+main{
+	background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;
+	padding-top: 40px;
+}
 main table{
 	font-family: body;
 	border-spacing: 25px;
@@ -251,9 +272,10 @@ td .LatestProjects{
 	font-family: OumaiAmloulogo;
 	font-size: 56px;
 	font-weight: 900;
-	background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
+	background-image: linear-gradient(to top,white	 50%,#fdecf3 1%); 
 	 display: block; 
-    text-align: center; 
+    text-align: center; width: 50%;
+	margin: auto;
 }
 .Mainproj table td{
 	border:1px solid grey;
@@ -285,6 +307,7 @@ td .LatestProjects{
 	filter: none;
 }
 .Tdtextside {
+	background-color: white;
 	width: 44%;
     text-align: center;
     padding: 10px;
@@ -324,6 +347,16 @@ td .LatestProjects{
 	border-bottom :1px solid grey;
 	padding-bottom:10px;
 }
+.Moreproject a{
+	color: black;
+	text-decoration: none;
+}
+.Moreproject{
+	text-align: end;
+	font-family: letssay;
+	font-size: 20px;
+	width: 95%;
+}
 /* end main projects */
 
 
@@ -332,18 +365,30 @@ aside{
 	 font-family: body;
 	 width:80%;margin:auto;
 	 text-align:center;
+	 padding: 50px;
+	 padding-bottom: 80px;
 }
 .getintouch{
-	font-family: OumaiAmloulogo;
+	font-family: OumaiAmloulogo;padding: 10px;
 	font-size: 56px;
 	font-weight: 900;
 	background-image: linear-gradient(to top,#fdecf3 50%,white 1%); 
-
-    text-align: center; /* Centers the text */
+	display: block; 
+    text-align: center; width: 50%;
+	margin: auto; 
 }
 aside ul li {
 	 background-color:whitesmoke;
-	 
+	 list-style: none;
+	 padding: 15px;
+ 	 width: 40%;
+ 	 margin: auto;
+	 border-radius: 10px;
+  	margin-top: 30px;
+	  text-align: left;
+}
+aside p{
+	margin-top: 30px;
 }
 /* end aside contact  */
 
@@ -351,7 +396,7 @@ aside ul li {
 footer {
     font-family: Arial, sans-serif;
     background-color: #fdecf3;
-    height: 100px; 
+    height: 50px; 
     display: flex;
     flex-direction: column; 
     justify-content: center;
