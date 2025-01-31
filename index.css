@@ -322,8 +322,9 @@ td .LatestProjects{
 }
 .page-descri{
 	height:150px;
-	text-align:justify;
-	align-content: center;padding:10px;
+	text-align:left;
+	font-size: 15px;
+	align-content: center;padding:16px;
 } 
 .techno-used{
 	background-color:#fdecf3 ;
