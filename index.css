@@ -116,7 +116,7 @@ header div ul li a:hover {
 
 .Contact tr td a:hover {
   cursor: pointer;
-  color: #ba336b;
+  color: #ba336b;  font-size: 18px;
 }
 /* end header */
 
