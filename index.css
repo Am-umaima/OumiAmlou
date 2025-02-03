@@ -100,7 +100,7 @@ header div ul li a {
 
 header div ul li a:hover {
   cursor: pointer;
-  color: #ba336b;
+  color: #ba336b;  
 }
 
 .Contact {
@@ -109,7 +109,7 @@ header div ul li a:hover {
 }
 
 .Contact tr td a {
-  font-size: 17px;
+  font-size: 16px;
   color: black;
   padding-left: 14px;
 }
@@ -233,15 +233,18 @@ font-family: OumaiAmloulogo;
 }
 .Moreskills {
 	text-align: end;
-	font-size: 20px;
-	/* transition: all 0.3s ease-in-out; */
+	font-size: 11px;
+	transition: margin-right 2s, color 1s;
 }
-.Moreskills:hover{
-	transform: scale(1.10);
+.Moreskills a:hover{
+	/* transform: scale(1.10); */
+	font-size: 12px;
+	color:#bb3268;
+	
 }
 .Moreskills a{
 	text-decoration: none;
-	color:black;
+	color:black;transition: all 1.2s ease-in-out;
 }
 /*  end section*/
 
@@ -371,15 +374,18 @@ td .LatestProjects{
 .Moreproject a{
 	color: black;
 	text-decoration: none;
+	transition: all 1.2s ease-in-out;
+	
 }
 .Moreproject{
 	text-align: end;
-	font-family: letssay;
-	font-size: 20px;
-	width: 95%;
+	font-size: 11px;
+	width: 95%;transition: margin-right 2s, color 1s;
 }
-.Moreproject:hover{
-	transform: scale(1.10);
+.Moreproject a:hover{
+		font-size: 12px;
+	   color:#bb3268;
+	
 }
 
 /* end main projects */ 
