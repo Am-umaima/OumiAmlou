@@ -1,0 +1,26 @@
+/* @font-face{ */
+    /* font-family: body; */
+    /* src: url("Fonts/Bogart-Semibold-trial.ttf"); */
+/* } */
+/* @font-face{ */
+    /* font-family: OumaiAmloulogo; */
+    /* src: url("Fonts/Heart.otf"); */
+/* } */
+/* * */
+/* { */
+	/* font-weight: lighter; */
+	/* letter-spacing: 2px; */
+	/* margin: 0; */
+	/* padding: 0; */
+	/* box-sizing: border-box; */
+    /* font-family: body;  */
+	/* font-size:40px */
+/* } */
+
+.Main-projects-tab
+{
+	margin-top:60px;	
+}
+.TinyProjecttitle{
+	color:red;
+}
