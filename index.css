@@ -237,12 +237,12 @@ font-family: OumaiAmloulogo;
 }
 .Moreskills {
 	text-align: end;
-	font-size: 11px;
+	font-size: 12px;
 	transition: margin-right 2s, color 1s;
 }
 .Moreskills a:hover{
 	/* transform: scale(1.10); */
-	font-size: 12px;
+	font-size: 13px;
 	color:#bb3268;
 	
 }
@@ -383,11 +383,11 @@ td .LatestProjects{
 }
 .Moreproject{
 	text-align: end;
-	font-size: 11px;
+	font-size: 12px;
 	width: 95%;
 }
 .Moreproject a:hover{
-		font-size: 12px;
+		font-size: 13px;
 	   color:#bb3268;
 	
 }
