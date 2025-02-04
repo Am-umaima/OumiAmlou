@@ -375,22 +375,22 @@ td .LatestProjects{
 	padding:20px; 
     -webkit-text-stroke: 1px black;
 }
-.Moreproject a{
-	color: black;
-	text-decoration: none;
-	transition: all 1.2s ease-in-out;
+/* .Moreproject a{ */
+	/* color: black; */
+	/* text-decoration: none; */
+	/* transition: all 1.2s ease-in-out; */
 	
-}
-.Moreproject{
-	text-align: end;
-	font-size: 11px;
-	width: 95%;
-}
-.Moreproject a:hover{
-		font-size: 12px;
-	   color:#bb3268;
+/* } */
+/* .Moreproject{ */
+	/* text-align: end; */
+	/* font-size: 11px; */
+	/* width: 95%; */
+/* } */
+/* .Moreproject a:hover{ */
+		/* font-size: 12px; */
+	   /* color:#bb3268; */
 	
-}
+/* } */
 /* end main projects */ 
 
 
