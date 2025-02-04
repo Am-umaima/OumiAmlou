@@ -1,0 +1,23 @@
+.Main-projects
+{
+	margin-top:60px;
+	/* background-color:whitesmoke;	 */
+	
+}
+.Main-projects-tab
+{
+	/* background-color:beige; */
+	width:80%;margin:auto;
+	 border-spacing: 40px;
+}
+.Mini-pro-sing{
+	background-color:white;
+	width:100%;
+	text-align:center;
+	/* border-spacing: 20px; */
+}
+.img-proj-min
+{
+	height:200px;
+	width:100%;
+}
