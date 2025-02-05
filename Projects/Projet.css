@@ -1,17 +1,15 @@
 .Main-projects
 {
 	margin-top:60px;
-	/* background-color:whitesmoke;	 */
 	
 }
 .Main-projects-tab
 {
-	/* background-color:beige; */
 	width:80%;margin:auto;
 	 border-spacing: 30px;
 }
 .Mini-pro-sing{
-	background-color:white;
+	background-color:whitesmoke;
 	width:100%;
 	text-align:center;
 	border-spacing: 10px;
@@ -20,4 +18,20 @@
 {
 	height:200px;
 	width:100%;
+}
+.minprj-title h2
+{
+	color:green;
+}
+.miniprj-description p
+{
+	background-color:beige;
+}
+.Technologies-used p
+{
+	background-color:pink;
+}
+.Mini-proj-btnss a{
+	background-color:green;
+	color:purple;
 }
