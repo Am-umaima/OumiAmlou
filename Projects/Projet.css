@@ -6,32 +6,60 @@
 .Main-projects-tab
 {
 	width:80%;margin:auto;
-	 border-spacing: 30px;
+	 border-spacing: 20px;
 }
 .Mini-pro-sing{
-	background-color:whitesmoke;
 	width:100%;
 	text-align:center;
 	border-spacing: 10px;
+}
+.Main-projects-tab table{
+	border:1px solid black ;
+}
+.Mini-pro-sing td{
+	font-size:14px;
 }
 .img-proj-min
 {
 	height:200px;
 	width:100%;
+	padding:0px !important;
 }
 .minprj-title h2
 {
-	color:green;
+	padding:7px;
+	 color: #ba336b;
+	font-size: 20px;
+    -webkit-text-stroke: 1px black;
+	
 }
 .miniprj-description p
 {
-	background-color:beige;
+	padding:8px;
+	text-align:justify;
 }
 .Technologies-used p
 {
-	background-color:pink;
+	background-color:#fdecf3;
+	border-bottom:1px solid gray;
+	border-top:1px solid grey;
+	padding:8px
+}
+.lianath-proj{
+	 list-style-type: none;
+	display:flex;
+	justify-content: space-between;
+}
+.Mini-proj-btnss li{
+	border-radius:4px;
+	padding:10px;
+	width:50%;
 }
 .Mini-proj-btnss a{
-	background-color:green;
-	color:purple;
+	text-decoration:none;
+	color:black;
+	
+}
+.Mini-proj-btnss li:hover{
+	background-color:whitesmoke;
 }
