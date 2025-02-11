@@ -1,0 +1,191 @@
+table{
+	/* background-color:beige; */
+	 width: 80%;
+    margin: auto;
+    border-spacing: 35px;
+}
+/* start article */
+article.Main-Skills {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* article.Main-Skills table { */
+    /* width: 80%; */
+    /* margin: auto; */
+    /* border-spacing: 25px; */
+/* } */
+
+td .awsomeskills {
+    font-family: OumaiAmloulogo;
+    font-size: 50px;
+    background-image: linear-gradient(to top, white 50%, #fdecf3 1%);
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+fieldset {
+    border: 2px solid #ba336b;
+    border-radius: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect */
+}
+
+fieldset:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 4px 10px WhiteSmoke;
+}
+
+legend {
+    font-weight: bold;
+    color: #ba336b;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+fieldset:hover legend {
+    background-color: #ba336b;
+    color: white;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #ffedf1;
+    color: #ba336b;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.skill:hover {
+    background-color: #ba336b;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px WhiteSmoke;
+}
+/* end article skills  */
+/* start section certficate */
+section.section-certficate table
+{
+	 width: 70%;
+}
+.section-certficate {
+    margin-top: 80px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.section-certficate td img {
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-certficate td img:hover {
+    transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+    .section-certficate table {
+        width: 95%;
+    }
+
+    .section-certficate .awsomeskills {
+        font-size: 35px;
+    }
+
+    .section-certficate td {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-certficate td img {
+        max-width: 200px;
+    }
+}
+
+/* end section certficate */
+/* Soft Skills Section */
+/* Soft Skills Section */
+.aside-softskils {
+    margin-top: 80px;
+}
+
+/* Table Styling */
+.aside-softskils table {
+    width: 60%;
+    text-align: center;
+}
+
+.aside-softskils td div {
+	width:50%;
+    font-size: 18px;
+    font-weight: bold;
+	border:1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 4px auto;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.aside-softskils td div:hover {
+    background-color: #ba336b;
+    color: white;border:none;
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .aside-softskils table {
+        width: 90%;
+    }
+
+    .aside-softskils .awsomeskills {
+        font-size: 35px;
+    }
+
+    .aside-softskils td div {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+/* end Soft Skills Section */
+/* start nav plan  */
+.nav-plan {
+    margin-top: 80px;
+ 
+}
+
+/* Table Styling */
+.nav-plan table {
+    width: 50%;
+    margin: auto;
+}
+.nav-plan td p {
+    /* font-size: 18px; */
+    /* font-weight: bold; */
+    /* color: white; */
+    /* background-color: black; */
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+    /* margin: 10px 0; */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-plan td p:hover {
+    background-color: #ba336b;
+    /* color: white; */
+    /* transform: translateY(-3px); */
+    /* box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2); */
+}
+
+/* end nav plan  */
