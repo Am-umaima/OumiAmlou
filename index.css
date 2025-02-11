@@ -207,8 +207,8 @@ article.artcle-home table p{
 /* end Articel*/
 
 /*  start section*/
-section {background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;}
-section div{
+section.section-home {background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;}
+section.section-home div{
 	padding: 20px;
 	margin:auto;
 	width:90%;
@@ -254,15 +254,15 @@ font-family: OumaiAmloulogo;
 
 
 /* stat nav */
-nav table{
+nav.nav-home table{
 	text-align:center;
     margin: auto;
     border-spacing: 30px;
 }
-nav table tr td {
+nav.nav-home table tr td {
 	padding: 15px ;
 }
-nav table tr td img{
+nav.nav-home table tr td img{
 	vertical-align: middle;padding-right:15px;
 }
 .toolsy{
@@ -285,11 +285,11 @@ td .Technologiesstool{
 }
 /* end nav */
 /* start main projects  */
-main{
+main.main-home{
 	background-color: #fdecf3 ;margin-top: -10px;margin-bottom: -70px;
 	padding-top: 40px;
 }
-main table{
+main.main-home table{
 	border-spacing: 25px;
 }
 td .LatestProjects{
@@ -395,7 +395,7 @@ td .LatestProjects{
 
 
 /* Start Aside Contact */
-aside {
+aside.aside-home {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -486,6 +486,7 @@ footer {
     font-size: 16px;
 }
 /* End footer styling */
+
 
 
 
