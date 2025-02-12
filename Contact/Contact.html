@@ -4,6 +4,7 @@
 	<meta charset="UTF-8"/>
 	<title>OumaiAmlou</title>
 	<link rel="stylesheet" href="../index.css">
+	<link rel="stylesheet" href="Contact.css">
 	<link rel="icon" type="image/jpg" href="../tsawa/2385856.png">
 	<!-- icon zi internet -->
 	<meta name="viewport" content="width=device-width, initial-scale=0">
@@ -21,30 +22,41 @@
 				<li><a href="../Skills/skills.html">Skills</a></li>
 				<li><a href="../Projects/Projects.html">Projects</a></li>
 				<li><a href="../Contact/Contact.html">Contact</a></li>
-			
 			</ul>
 		</div>
 		<div class="Contact">
 		<table class="main-table">
-						<tr>
-							<td><a href="https://www.linkedin.com/in/oumaima-amlou-66763b193/" target="_blank"><i class="fa fa-linkedin"></a></td>
-							<td><a href="https://github.com/Am-umaima" target="_blank"><i class="fa fa-github"></a></td>
-							<td><a href="https://m.facebook.com/oumaima.amlou/" target="_blank"><i class="fa fa-facebook"></a></td>
-							<td><a href="mailto:amlou.oumaima@gmail.com" ><i class="fa fa-envelope"></a></td>
-						</tr>
+			<tr>
+				<td><a href="https://www.linkedin.com/in/oumaima-amlou-66763b193/" target="_blank"><i class="fa fa-linkedin"></a></td>
+				<td><a href="https://github.com/Am-umaima" target="_blank"><i class="fa fa-github"></a></td>
+				<td><a href="https://m.facebook.com/oumaima.amlou/" target="_blank"><i class="fa fa-facebook"></a></td>
+				<td><a href="mailto:amlou.oumaima@gmail.com" ><i class="fa fa-envelope"></a></td>
+			</tr>
 		</table>
 		</div>
 	</header>
-	<section style="background-color: white;" >
-	<p>
-		<img src="../tsawa/Underconstraction.png"  style="height: 900px;margin-left: 400px;"/>
-	</p>	
-	
-	
-	</section>
-	
+	<div class="contact-form">
+        <h2>Contact Me</h2>
+        <p class="friendly-text">Have a question, collaboration idea, or just want to say hello? Feel free to reach out! 😊</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="successMessage" style="color: green; display: none;">Message Sent Successfully!</p>
 
-	
-<script src="javascript.js"></script>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </div>
+    </div>
+<script src="Contact.js"></script>
 </body>
 </html>
