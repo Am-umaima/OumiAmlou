@@ -81,8 +81,6 @@ section.section-certficate table
 }
 .section-certficate {
     margin-top: 80px;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 .section-certficate td img {
    
@@ -90,7 +88,7 @@ section.section-certficate table
 }
 
 .section-certficate td img:hover {
-    transform: scale(1.05);
+    transform: scale(1.45);
 }
 @media screen and (max-width: 768px) {
     .section-certficate table {
@@ -112,7 +110,7 @@ section.section-certficate table
 }
 
 /* end section certficate */
-/* Soft Skills Section */
+
 /* Soft Skills Section */
 .aside-softskils {
     margin-top: 80px;
@@ -161,31 +159,24 @@ section.section-certficate table
 /* start nav plan  */
 .nav-plan {
     margin-top: 80px;
- 
 }
-
-/* Table Styling */
 .nav-plan table {
     width: 50%;
     margin: auto;
 }
 .nav-plan td p {
-    /* font-size: 18px; */
-    /* font-weight: bold; */
-    /* color: white; */
-    /* background-color: black; */
-    /* padding: 15px; */
-    /* border-radius: 10px; */
-    /* margin: 10px 0; */
+    font-size: 18px;
+    font-weight: bold;
+    background-color: WhiteSmoke;
+    padding: 15px;
+    border-radius: 10px;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* Hover Effect */
 .nav-plan td p:hover {
     background-color: #ba336b;
-    /* color: white; */
-    /* transform: translateY(-3px); */
-    /* box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2); */
+    color: white;
+    transform: translateY(-15px);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }
 
 /* end nav plan  */
