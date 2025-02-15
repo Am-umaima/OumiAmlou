@@ -22,6 +22,22 @@
 
 body{background-color:white;}
 
+.dancing-image {
+    width: 250px;
+    height: auto;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    animation: dance 0.8s infinite;
+}
+
+@keyframes dance {
+    0% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(-10px) rotate(-10deg); }
+    50% { transform: translateX() rotate(50deg); }
+    75% { transform: translateX(20px) rotate(10deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+}
+
 /**L headerr a wtchma inoo**/
 header{
 	position: -webkit-sticky; /* For Safari */
