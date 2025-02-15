@@ -1,22 +1,31 @@
-# 🌐 Oumaima Amlou's Portfolio
+# 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio! 🚀 This website showcases my skills, projects, and journey as a web developer, with a focus on creating responsive, modern, and user-friendly web applications.
+This repository contains the source code for my personal portfolio website. The site showcases my web development projects, skills, and experience with a clean and responsive design.
 
-## 🔍 About Me
-I'm a passionate and motivated developer with a strong interest in web technologies and application development. My journey started with learning C#, SQL, HTML, CSS, JavaScript, and PHP during my diploma studies, and I’ve continued to grow my skills through self-study and practical experience.
+## 🚀 Features
+
+- 🌟 **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- ⚙️ **Interactive Projects Section**: A dynamic showcase of my web development work.
+- 🎨 **Clean & Modern UI**: A minimalistic layout with a user-friendly interface.
+- 🔍 **SEO-Friendly**: Built with semantic HTML and optimized for search engines.
+- 🚀 **Fast Performance**: Lightweight assets and efficient code structure for better performance.
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** PHP
-- **Tools:** Git, GitHub, Visual Studio, SQL Server
-- **Other Skills:** Database Management, Web Support, Email Marketing
 
-## 📂 Projects
-Here are some of the key projects featured in this portfolio:
+- **HTML5** – Structure and content of the site.
+- **CSS3** – Styling with responsive layouts and modern CSS techniques.
+- **JavaScript** – Interactive features for enhanced user experience.
+- **Git & GitHub** – Version control and project management.
 
-1. **Personal Portfolio Website** – A showcase of my skills, projects, and experiences.
-2. **Web Support & Email Campaigns** – Experience working as a web support agent, crafting custom email offers.
-3. **Dynamic Web Applications** – Various applications demonstrating my ability to build interactive web experiences.
+## 📂 Project Structure
+
+```plaintext
+📂 src
+   ├── 📁 assets       # Images and other static assets
+   ├── 📁 css          # Stylesheets
+   ├── 📁 js           # JavaScript files
+   ├── 📁 projects     # Project showcase content
+   └── index.html      # Main entry point
 
 ## 🚀 Live Demo
 [Visit my Portfolio](https://oumi-amlou.vercel.app/)
