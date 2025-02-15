@@ -17,15 +17,7 @@ This repository contains the source code for my personal portfolio website. The 
 - **JavaScript** – Interactive features for enhanced user experience.
 - **Git & GitHub** – Version control and project management.
 
-## 📂 Project Structure
 
-```plaintext
-📂 src
-   ├── 📁 assets       # Images and other static assets
-   ├── 📁 css          # Stylesheets
-   ├── 📁 js           # JavaScript files
-   ├── 📁 projects     # Project showcase content
-   └── index.html      # Main entry point
 
 ## 🚀 Live Demo
 [Visit my Portfolio](https://oumi-amlou.vercel.app/)
@@ -36,6 +28,15 @@ This repository contains the source code for my personal portfolio website. The 
 ## 💡 Future Plans
 I'm continuously learning and improving my skills, with a focus on achieving a C1 level in German and pursuing an Ausbildung in Anwendungsentwicklung in Germany.
 
+## 📂 Project Structure
+
+```plaintext
+📂 src
+   ├── 📁 assets       # Images and other static assets
+   ├── 📁 css          # Stylesheets
+   ├── 📁 js           # JavaScript files
+   ├── 📁 projects     # Project showcase content
+   └── index.html      # Main entry point
 ---
 
 Thank you for visiting my portfolio! 😊 Feel free to reach out if you have any questions or collaboration ideas!
