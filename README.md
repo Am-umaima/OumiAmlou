@@ -25,8 +25,7 @@ This repository contains the source code for my personal portfolio website. The 
 ## 📈 GitHub Profile
 [Check out my GitHub](https://github.com/Am-umaima)
 
-## 💡 Future Plans
-I'm continuously learning and improving my skills, with a focus on achieving a C1 level in German and pursuing an Ausbildung in Anwendungsentwicklung in Germany.
+
 
 ## 📂 Project Structure
 
