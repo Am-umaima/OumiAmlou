@@ -88,7 +88,7 @@ section.section-certficate table
 }
 
 .section-certficate td img:hover {
-    transform: scale(1.45);
+    transform: scale(1.30);
 }
 @media screen and (max-width: 768px) {
     .section-certficate table {
