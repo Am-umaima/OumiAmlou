@@ -22,13 +22,13 @@
 
 body{background-color:white;}
 
-/* .dancing-image { */
+.dancing-image {
     /* width: 250px; */
     /* height: auto; */
     /* transition: transform 0.5s ease; */
     /* cursor: pointer; */
     /* animation: dance 0.8s infinite; */
-/* } */
+}
 
 /* @keyframes dance { */
     /* 0% { transform: translateX(0) rotate(0deg); } */
@@ -168,7 +168,8 @@ header div ul li a:hover {
 
 article.artcle-home table{
 	margin:auto;margin-top:60px;
-	width:80%;
+	width:80%;table-layout: fixed;
+	border-spacing: 40px;
 }
 article.artcle-home table p{
 	/* font-weight:400; */
@@ -176,6 +177,7 @@ article.artcle-home table p{
 }
 .introud{
 	font-size:20px;
+	width:60% ;
 }
 .Hello{font-family: OumaiAmloulogo;font-size:35px;}
 .Morocco
